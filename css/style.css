@@ -27,8 +27,7 @@ body {
 }
 
 #container {
-/*  width: 50.000em;
-*/  padding-top: 6.250em;
+  padding-top: 6.250em;
   margin-left: auto;
   margin-right: auto; 
 }
@@ -114,7 +113,9 @@ body {
   color: #373737; }
 
 #article a {
-  color: #e33; }
+  color: #404040;
+  font-weight: bold;
+  }
 
 #article p {
   margin-left: auto;
@@ -176,7 +177,7 @@ a {
 }
 
 a:hover {
-  color: #999; 
+  color: #ccc; 
 }
 
 .h1-sub {
@@ -192,7 +193,7 @@ a:hover {
 }
 
 #article a:hover {
-  border-bottom: 0.063em solid #e33; 
+  border-bottom: 0.063em solid #404040; 
 }
 
 ul {
