@@ -39,6 +39,12 @@ body {
   margin-right: auto; 
 }
 
+#container-mentormee {
+  width: 50.000em;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
 #banner-container {
   padding-top: 6.250em; 
 }
@@ -123,7 +129,21 @@ body {
   width: 29em;
   margin-top: 1.375em;
   margin-bottom: 1.375em;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+}
+
+#word-list p {
+
+  font-family: 'Pragati Narrow' , sans-serif;
+  font-size: 1.25em;
+  color: #404040;
+  margin-left: auto;
+  margin-right: auto;
+  width: 29em;
+  margin-top: 1.375em;
+  margin-bottom: 1.375em;
+  overflow-x: hidden; 
+}
 
 #logo {
   /*font-family: "Montserrat";*/
@@ -268,6 +288,12 @@ ol {
   padding-bottom: 0.625em; }
 
 .post {
+  overflow: hidden;
+  padding: 0.625em 1.875em 0.625em 1.875em;
+  margin-bottom: 2.500em; 
+}
+
+.post-projects {
   overflow: hidden;
   padding: 0.625em 1.875em 0.625em 1.875em;
   margin-bottom: 2.500em; 
