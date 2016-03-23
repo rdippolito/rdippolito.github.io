@@ -299,6 +299,22 @@ ol {
   margin-bottom: 2.500em; 
 }
 
+.post-projects a {
+  color: #404040;
+  font-weight: bold;
+}
+
+.post-projects a:hover {
+  border-bottom: 0.063em solid #404040; 
+}
+
+#article a:hover {
+  border-bottom: 0.063em solid #404040; 
+}
+
+.post-video {
+  text-align: center;
+}
 .post:hover {
   background: #fafafd;
   outline: 0.063em solid #dedede; 
