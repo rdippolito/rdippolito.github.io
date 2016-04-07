@@ -45,6 +45,11 @@ body {
   margin-right: auto; 
 }
 
+#container-blogpost {
+  margin-left: auto;
+  margin-right: auto; 
+}
+
 #banner-container {
   padding-top: 6.250em; 
 }
@@ -178,11 +183,18 @@ body {
 
 #image-wrapper img {
   display: block;
-  margin-top: 3.750em;
-  margin-bottom: 3.750em;
+  margin-top: 1.750em;
+  margin-bottom: 1.750em;
 /*  width: 40em !important;*/
   margin-left: auto !important;
   margin-right: auto !important; 
+}
+
+#image-wrapper p {
+  text-align: center;
+  font-size:1.0em;
+  font-weight: 200;
+  font-family: 'Pragati Narrow' , sans-serif;
 }
 
 .h2-sub {
@@ -199,6 +211,12 @@ body {
 #article p {
   font-family: 'Lato', sans-serif;
 }
+
+#caption p {
+  font-family: 'Lato', sans-serif;
+}
+
+
 
 a {
   color: #ccc;
@@ -226,6 +244,9 @@ a:hover {
 }
 
 ul {
+  font-size: 1.25em;
+  color: #404040;
+  font-family: 'Pragati Narrow' , sans-serif;
   margin-left: auto;
   margin-right: auto;
   width: 29em; 
